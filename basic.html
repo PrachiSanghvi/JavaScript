@@ -1,0 +1,316 @@
+
+<html>
+    <head>
+        <script type="text/javascript">
+ //this is comment
+/* 
+JS is loosly typed
+JS is dynamically typed
+
+// */
+//             //variable declaration
+//             var num=16;
+//             var Num=18;//Case sensetive
+//             var name="prachi";
+//             var flag=false;
+//             num="prachi";
+//             var x;
+//             x=5;
+//             document.write(num);
+//             // alert(num);
+
+
+//             //concat and sum
+//             var a=3;
+//             var b=7;
+//             var c=6;
+//             var result=c+b+"prachi"+a+b;
+//             document.write("<h1>Result is"+result+"</h1>");
+
+//             document.write("--------------------------");
+
+//             //If-else
+//             var x=5;
+//             if(x>0)
+//             {
+//                  document.write("<h3>Positive</h3>");
+//                  if(x%2==0)
+//                  {
+//                     document.write("<h3>even</h3>");
+
+//                  }
+//                  else
+//                  {
+//                  document.write("<h3> odd</h3>");
+
+//                  }
+                
+//             }
+//             else if(x<0)
+//             {
+//                 document.write("<h3>Negative</h3>");
+                
+//             }
+//             else
+//             {
+//                 document.write("<h3>Neither Positive nor negative</h3>");
+
+//             }
+//             document.write("--------------------------");
+
+//             //switch case
+//             var day="prachi";//number,string,boolean
+        
+//             switch(day+"sanghvi")
+//             {
+//                 case "prachisanghvi":
+//                     document.write("<h3>its me</h3>");
+//                       break;
+//                 default:
+//                     document.write("<h3>wrong input</h3>");
+//              }
+
+//              document.write("--------------------------");
+             
+//              // for loop
+//              var x=2;
+//              for(;x<=10;x+=2)
+//              {
+//                 document.write("<h3>"+(x)+"</h3>");
+
+//              }
+//              document.write("--------------------------");
+
+//              //while loop
+//              var x=1;
+//              while(x<=10)
+//              {
+//                 document.write("<h3>"+x+"</h3>");
+//                 x=x+2;
+
+//              }
+//              document.write("--------------------------");
+
+//              //do while
+//              var x=0;
+//              do{
+//                 document.write("<h3>Prachi</h3>");
+//                 x--
+//              }while(x>5);
+
+//              document.write("--------------------------");
+//              //functions
+//              function addNumber(x,y)
+//              {
+//                  var total=x+y;
+//                  return total;
+//              }
+//              var output=addNumber(4,2);
+//             document.write("<h1>"+output+"</h1>");
+             
+//             document.write("--------------------------");
+//              //arrays
+//              var cars=["BMW","volvo","Audi"];
+//              cars.push("Mercedes");
+//              cars.push(2);
+
+//              for(var  i=0;i<cars.length;i++)
+//              {
+//                  document.write("<h2>"+cars[i]+"</h2>");
+//              }
+
+
+//             document.write("--------------------------");
+//             //function
+//             var Car={
+//                 car_brand:"tesla",car_model:"model 3",price:35000,
+//                 teslaAutoPilot:function()
+//                 {
+//                     document.write("<h2>This car has Auto pilot</h2>");
+//                 }
+//             }
+//             delete Car.price;
+//             Car.teslaAutoPilot();
+//             Car.newFn=function()
+//             {
+//                 document.write("<h2>this sis new function</h2>");
+//             }
+//             // document.write("<h2>"+Car.teslaAutoPilot+"</h2>");
+
+//             document.write("--------------------------");
+//             //objects
+//             function Cars(car_brand,car_model,price)
+//             {
+//                 this.car_brand=car_brand;
+//                 this.car_model=car_model;
+//                 this.price=price;
+//                 this.teslaAutoPilot=function()
+//                 {
+//                     document.write("<h2>this car has prototype  auto pilot</h2>");
+//                 }
+//             }
+//             var c1=new Cars("tesla","model 1",35000);
+//             c1.teslaAutoPilot();
+//             document.write("<h2>"+c1.car_model+"</h2>");
+
+//             document.write("--------------------------");
+            //button click
+            //dom manipulation & getelementbyid method
+
+                function buttonClick()
+                {
+                //     // alert("<h2>Button Clicked</h2>");
+                //     // document.getElementById("heading2").innerHTML="prachi sanghvi";
+                //     var username=document.getElementById("uname");
+
+                //     var password=document.getElementById("pass");
+
+                //    if(username.value.trim()=="")
+                //    {
+                //     //    alert("no blank value allowed");
+                //        username.style.border="solid 3px red";
+                //        document.getElementById("lbluser").style.visibility="visible";
+                //        return false;
+                //    }
+                //    else if(password.value.trim()=="")
+                //    {
+                //     // alert("no blank value allowed");
+                //        password.style.border="solid 3px red";
+                //        document.getElementById("lblpass").style.visibility="visible";
+                //        return false;
+                //    }
+                //    else if(password.value.trim().length<5)
+                //    {
+                //          password.style.border="solid 3px red";
+                //        document.getElementById("shortpass").style.visibility="visible";
+                //        return false;
+                //    }
+                //    else
+                //    {
+                //        return true;
+                //    }
+
+                // ------------------------------------------------------------------------
+
+                //    var select=document.getElementById("selectbox");
+                //    alert(select.options[select.selectedIndex].value);
+
+                // ------------------------------------------------------------------------
+                // getElementsByTagName,.getElementsByClassName
+
+                // var para=document.getElementsByTagName("p");
+                // var element=document.getElementsByClassName("mypara");
+
+                // para[0].style.fontSize=25;
+                // for(var i=0;i<para.length;i++)
+                // {
+                //     para[i].style.fontSize=35;
+                // }
+                // for(var x=0;x<element.length;x++)
+                // {
+                //     element[x].style.color="blue";
+                // }
+
+                // ------------------------------------------------------------------------
+                    // mouseover,mouseut
+
+                   
+
+      
+        // function setNewImage()
+        //             {
+        //                 document.getElementById("img1").src="img/car1.png";
+        //             }
+        // function setOldImage()
+        //             {
+        //                 document.getElementById("img1").src="img/th.jpg";
+        //             }
+
+
+          // ------------------------------------------------------------------------
+                    // pattern validate
+
+                    var username=document.getElementById("uname").value;
+                    var regx=/^([a-z 0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
+                    //  /E00/ /[a-x]00/  /[0-5]abc/  /[^abc]abc/ /[^a-z]abc/ /^[7-9][0-9]{9}$/
+                    
+                    //\s -whitespace
+                    //\t tab match
+                    //\w match any word caracter a-z A-Z 0-9 _
+                    //\d 0-9
+                    if(regx.test(username))
+                    {
+                        alert("valid");
+
+                    }
+                    else
+                    {
+                        alert("invalid");
+                         document.getElementById("lbluser").style.visibility="visible";
+                     }
+
+                    
+                }
+
+          // ------------------------------------------------------------------------
+                //setTimeOut ClearTimeOut setInterval clearInterval
+
+                var ID=0;
+                     var second=0;
+                     function printMsg()
+                     {
+                         document.getElementById("op").innerHTML=second+" second";
+                         second++;
+                     }
+                     function start()
+                     {
+                         ID=window.setInterval(printMsg,1000);
+                     }
+                     function stop()
+                     {
+                         window.clearInterval(ID);
+                     }
+
+        </script>
+    </head>
+    <body>
+        <!-- <form onsubmit="return buttonClick()" action="msg.html">
+        <input type="text" id="uname" placeholder="username"><br>
+        <label id="lbluser" style="color:red; visibility:hidden;">Invalid</label><br>
+        <input type="password" id="pass" placeholder="password"><br>
+        <label id="lblpass" style="color:red; visibility:hidden;">Invalid</label><br>
+        <label id="shortpass" style="color:red; visibility:hidden;">password too short</label><br> -->
+
+        <!-- <select id="selectbox">
+            <option value="first" >first</option>
+            <option value="sec" >sec</option>
+
+
+        </select> -->
+
+        <!-- <p class="mypara">this is paragraph</p>
+        <p>this is paragraph</p>
+        <p>this is paragraph</p>
+        <p class="mypara">this is paragraph</p>
+
+        <p>this is paragraph</p> -->
+
+        <!-- <img src="img/th.jpg" id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
+        width="300"> -->
+        <!-- <form onsubmit="return buttonClick()" action="msg.html">
+        <input type="text" id="uname" placeholder="username"><br>
+        <label id="lbluser" style="color:red; visibility:hidden;">Invalid Username</body>/label><br>
+        <button onclick="buttonClick()" id="btn1">Click Me</button> -->
+        <!-- <h2 id="heading2">heading 2 </h2> -->
+
+        <button onclick="start()" id="btnAdd">Start</button> 
+        <h2 id="op">Some text</h2>
+        <button onclick="stop()" id="btnAdd">Stop</button> 
+
+
+
+
+       
+    </form>
+    </body>
+</html>
